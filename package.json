@@ -8,7 +8,7 @@
     "test": "nx test my-express-api",
     "lint": "nx lint my-express-api",
     "format": "nx format:write"
-}
+},
   "private": true,
   "dependencies": {
     "@fontsource/poppins": "^5.1.0",
