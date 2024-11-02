@@ -7,8 +7,8 @@
     "npm": "10.x"
   },
   "scripts": {
-    "heroku-postbuild": "npm install && npx nx run my-express-api:build",
-    "build": "npx nx build my-express-api",
+    "heroku-postbuild": "npm install && nx run myapp:build:my-express-api",
+    "build": "nx run myapp:build:my-express-api",
     "start": "node dist/apps/my-express-api/main.js",
     "test": "npx nx test my-express-api",
     "lint": "npx nx lint my-express-api",
