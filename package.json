@@ -3,11 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/apps/my-express-api/main.js",
-    "build": "NODE_OPTIONS=--max-old-space-size=4096 npm install && npm run build",
-    "test": "nx test my-express-api",
-    "lint": "nx lint my-express-api",
-    "format": "nx format:write"
+    "heroku-postbuild": "npm install && npm run build",
+    "build": "nx build my-express-api"
 },
   "private": true,
   "dependencies": {
