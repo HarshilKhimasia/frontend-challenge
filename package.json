@@ -8,7 +8,7 @@
   },
   "scripts": {
     "heroku-postbuild": "npm install && npx nx build my-express-api",
-    "build": "nx build my-express-api",
+    "build": "npx nx build my-express-api",
     "start": "node dist/apps/my-express-api/main.js",
     "test": "nx test my-express-api",
     "lint": "nx lint my-express-api",
