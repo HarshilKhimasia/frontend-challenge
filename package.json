@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/apps/my-express-api/main.js",
+    "start": "nx serve my-express-api",
     "build": "nx build my-express-api",
     "test": "nx test my-express-api",
     "lint": "nx lint my-express-api",
