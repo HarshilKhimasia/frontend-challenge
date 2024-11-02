@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve dojo",
-    "build": "nx build dojo",
-    "test": "nx test dojo",
-    "lint": "nx lint dojo",
+    "start": "nx serve my-express-api",
+    "build": "nx build my-express-api",
+    "test": "nx test my-express-api",
+    "lint": "nx lint my-express-api",
     "format": "nx format:write"
   },
   "private": true,
